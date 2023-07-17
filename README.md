@@ -9,3 +9,9 @@ The plan:
 * Website should have a jade green theme
 * use many of django's built-in features to learn more about them
 * if I can combine my aws knowledge with this page it would be great
+
+
+## Current issues:
+* css not working at all
+* timeline logic not yet implemented
+* when you log in for some reason it doesn't continue *aka ghost login*
