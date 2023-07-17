@@ -11,7 +11,7 @@ The plan:
 * if I can combine my aws knowledge with this page it would be great
 
 
-## Current issues:
+## Current issues(in order of most important):
 * css not working at all
+* when you log in for some reason it doesn't continue *aka ghost login* -> might be fixed but I haven't checked it yet
 * timeline logic not yet implemented
-* when you log in for some reason it doesn't continue *aka ghost login*
