@@ -7,8 +7,13 @@ from .models import Post
 def home(request):
     # template = loader.get_template('home.html')
     return render(request, 'home.html')
+from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
+from .forms import LoginForm, RegistrationForm, PostForm
+from .models import Post
 
-def login(request):
+def login_view(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
